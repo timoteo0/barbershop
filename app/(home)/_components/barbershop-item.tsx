@@ -35,7 +35,6 @@ const BarbershopItem = ({ barbershop }: BarbershopInterface) => {
             alt={barbershop.name}
           />
         </div>
-
         <div className="px-2 pb-3">
           <h2 className="font-bold mt-2 overflow-hidden text-ellipsis text-nowrap">
             {barbershop.name}
