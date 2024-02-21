@@ -38,7 +38,7 @@ const BarbershopDetailsPage = async ({
     <div>
       <BarbershopInfo barbershop={barbershop} />
 
-      <div className="flex flex-col gap-4 py-6">
+      <div className="flex flex-col gap-4 py-6 px-5">
         {barbershop.services.map((service) => (
           <ServiceItem
             key={service.id}
