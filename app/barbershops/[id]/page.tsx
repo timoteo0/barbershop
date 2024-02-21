@@ -44,6 +44,7 @@ const BarbershopDetailsPage = async ({
             key={service.id}
             service={service}
             isAuthenticated={!!session}
+            barbershop={barbershop}
           />
         ))}
       </div>
