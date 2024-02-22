@@ -31,7 +31,7 @@ export default async function Home() {
           Agendamentos
         </h2>
 
-        <BookingItem />
+        {/*<BookingItem />*/}
       </div>
 
       <div className="mt-6">
