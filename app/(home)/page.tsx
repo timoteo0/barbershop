@@ -21,7 +21,6 @@ export default async function Home() {
               gte: new Date(),
             },
           },
-
           include: {
             service: true,
             barbershop: true,
